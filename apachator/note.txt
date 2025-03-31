@@ -1,0 +1,6 @@
+This script requires admin rights & apache already installed
+two parameters must be given: public folder path (ROCINANTE) and host name (SANCHO)
+to give the script exec rights:
+```
+chmod u=rwx apachator.sh
+```
