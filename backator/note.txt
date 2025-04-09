@@ -1,0 +1,10 @@
+this script automatically backs up a folder by turning it into a zip and copying it to your desired folder (works well with desktop google drive).
+you have to configure two values in the batch file (backator.bat) before you can use it:
+1. SOURCE_FOLDER (path of the folder to-be-zipped)
+2. DESTINATION (path to the folder where the zip shall be copied)
+
+to schedule it using windows task scheduler, follow these steps:
+1. launch taskschd.msc
+2. create a basic task (right-click)
+3. choose what fits your needs
+(CAREFUL!) In the actions tab of your task, in the "Start in (optional)" textbox, paste the full containing directory path of the script (e.g. C:\coolpath\backator\), otherwise it wont work
